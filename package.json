@@ -1,0 +1,42 @@
+{
+  "name": "whatplantonight",
+  "version": "1.0.0",
+  "description": "buld nigthlife coordination app using yelp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celse/tonight-plan-cc.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Mongoose",
+    "full",
+    "stack",
+    "Express",
+    "Node",
+    "javascript",
+    "boilerplate"
+  ],
+  "author": "Celsio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celse/tonight-plan-cc/issues"
+  },
+  "homepage": "https://github.com/celse/tonight-plan-cc#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.3",
+    "nodemon": "^1.11.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "session": "^0.1.0",
+    "wait-promise": "^0.4.1",
+    "yelp-fusion": "^1.0.3"
+  }
+}

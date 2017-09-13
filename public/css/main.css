@@ -1,0 +1,333 @@
+/****** Main Styling ******/
+#header .jumbotron {
+  background: #532F8C;
+  color: white;
+  /*padding-bottom: 80px;*/ }
+
+#header{
+ background: #532F8C;
+}
+
+#header .clementine-text { /* Styling for the Clementine.js text */
+	padding: 0;
+	margin: -25px 0 0 0;
+	font-weight: 500;
+	font-size: 60px;
+	color: #FFA000;
+}
+
+.my-4 {
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+}
+.navbar + .jumbotron {
+    margin-top: -20px; }
+    
+    
+form .form-group{
+	text-align : left; 
+}    
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	color: #00BCD4;
+	height: 56px;
+	margin: 0 0 14px 0;
+	text-align: center;
+}
+
+p {
+	margin: 8px 0 0 0;
+}
+
+.container p {
+	text-align: left;
+	padding: 0;
+}
+
+/****** Header Styling ******/
+
+header p {
+	margin: 16px 0 5px 0;
+}
+
+.menu {
+	text-decoration: none;
+	padding: 6px;
+	margin: 0;
+	color: #727272;
+}
+
+.menu:visited {
+	color: #727272;
+}
+
+.menu:hover {
+	color: #FFA000;
+}
+
+.menu:active {
+	color: #FF630D;
+}
+
+header a ~ p {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	color: #ECEFF1;
+}
+.rating{
+	margin:10px 0px;
+}
+#display-name {
+	font-weight: 400;
+}
+.userlogin{
+	display: none;
+}
+/****** Login Styling ******/
+
+.login,.login p, elmCenter {
+	/*margin: 86px auto 0 auto;*/
+	text-align: center;
+}
+
+#login-btn {
+	width: 225px;
+	padding: 7px 5px;
+}
+
+.btn p {
+	margin: 8px 0 0 0;
+	padding: 0;
+}
+
+.btn > img {
+	float: left;
+	margin-left: 10px
+}
+
+/****** Logo Div Styling ******/
+
+img {
+	margin: 0 auto;
+	display: block;
+}
+
+.clementine-text { /* Styling for the Clementine.js text */
+	padding: 0;
+	margin: -25px 0 0 0;
+	font-weight: 500;
+	font-size: 60px;
+	color: #FFA000;
+}
+footer {
+    background-color: #333;
+    bottom: 0;
+    position: relative;
+}
+.med-text { /* Styling for the Clementine.js text */
+	padding: 0;
+	margin: -25px 0 0 0;
+	font-weight: 500;
+	font-size: 30px;
+	color: #FFA000;
+}
+/****** Click Styling ******/
+
+.btn-container {	/* Styling for the div that contains the buttons */
+	margin: -10px auto 0 auto;
+	text-align: center;
+	
+}
+
+.btn {	/* Styling for buttons */
+	margin: 0 8px;
+	color: white;
+	background-color: #00BCD4;
+	display: inline-block;
+	border: 0;
+	font-size: 14px;
+	border-radius: 3px;
+	padding: 10px 5px;
+	/*width: 100px;*/
+	font-weight: 500;
+}
+
+.btn:focus {	/* Remove outline when hovering over button */
+	outline: none;
+}
+
+.btn:active {	/* Scale the button down by 10% when clicking on button */
+	transform: scale(0.9, 0.9);
+	-webkit-transform: scale(0.9, 0.9);
+	-moz-transform: scale(0.9, 0.9);
+}
+
+.btn-delete {	/* Styling for delete button */
+	background-color: #ECEFF1;
+	color: #212121;
+}
+
+#click-nbr {
+	font-weight: 400;
+}
+
+.badgebox
+{
+    opacity: 0;
+}
+
+.badgebox + .badge
+{
+    /* Move the check mark away when unchecked */
+    text-indent: -999999px;
+    /* Makes the badge's width stay the same checked and unchecked */
+	width: 27px;
+}
+
+.badgebox:focus + .badge
+{
+    /* Set something to make the badge looks focused */
+    /* This really depends on the application, in my case it was: */
+    
+    /* Adding a light border */
+    box-shadow: inset 0px 0px 5px;
+    /* Taking the difference out of the padding */
+}
+
+.badgebox:checked + .badge
+{
+    /* Move the check mark back when checked */
+	text-indent: 0;
+}
+
+/****** Profile Styling ******/
+
+.github-profile {
+	width: 350px;
+	height: 200px;
+	border-radius: 3px;
+	margin: 86px auto 0 auto;
+	background-color: #EEE;
+	text-align: center;
+	color: #000;
+}
+
+.github-profile p:first-child {
+	padding-top: 16px;
+}
+
+.github-profile p:nth-child(5) {
+	margin-bottom: 16px
+}
+
+.github-profile p {
+	margin: 0 0 0 16px;
+	text-align: left;
+}
+
+.profile-value {
+	font-weight: 400;
+}
+.navbar, #btn_view{
+	display: none;
+}
+span {
+	font-weight: 500;
+}
+
+.github-profile > img {
+	padding-top: 16px;
+	margin-bottom: 16px;
+}
+
+.github-profile .menu:hover {
+	color: #FFA000;
+}
+
+.github-profile .menu:active {
+	color: #FF630D;
+}
+
+#menu-divide {
+	color: #FFFFFF;
+	display: inline;
+	margin: 0;
+}
+.bar-item {
+    margin-bottom: 30px;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    /*border: 1px solid rgba(0,0,0,.125);*/
+    border-radius: .25rem;
+}
+
+.card-block {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.card-title {
+    margin-bottom: .75rem;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    text-align:left;
+}
+
+.card-img-top {
+    border-top-right-radius: calc(.25rem - 1px);
+    border-top-left-radius: calc(.25rem - 1px);
+}
+.img-fluid {
+    max-width: 100%;
+    height: 180px;
+    background-color: gray;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+.yelpData hr{
+	margin-left: 15px;
+	margin-right:  150px;
+}
+.bg-inverse {
+    background-color: #292b2c!important;
+}
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+.text-white {
+    color: #fff!important;
+}
+
+
+.pagination {
+    margin-bottom: 30px;
+}
