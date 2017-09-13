@@ -16,8 +16,6 @@ module.exports = function(app, passport){
 
     app.route('/')
 		.get(function (req, res) {
-		    
-		    //clickHander.load_api();
 		    res.sendFile(path + '/public/home.html');
 		});
     
@@ -45,9 +43,7 @@ module.exports = function(app, passport){
 	app.route('/api/bars/:id')	
 		.delete(isLoggedIn,clickHander.userBarDel);
 		
-    /*app.route('/api/:id/clicks')
-        .post(isLoggedIn, clickHander.addClicks);*/
-        
+   
     app.route('/api/')
         .get(function(req, res){
             console.log('PAGE INIT');    
@@ -64,6 +60,3 @@ module.exports = function(app, passport){
             clickHander.selectBar(req, res);
         });
 };
-/*
-
-*/

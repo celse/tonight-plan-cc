@@ -46,27 +46,3 @@ app.listen(port, function(){
     console.log('Node.js listening on port : '+port+'...');
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-Client ID
-TSAeNLjmyEl8n4euQA8MGg
-Client Secret
-o6XY4CltKFXYKzGW6X9hnK5ckoh3hD1XWtBfZooemNso0pPgcGHkbhOJKZH55wU0
-{
-    "access_token": "W-xG6kvEBLi2gxNJPLa80K5j2hbRnXWyR48MSpF1Is1NHMqeo5Pe-EX8CQlLWD_EKo2Xioqp68HuNA6HRjxCteVaDBvE2Nh-Y9bycHjzNxI4BFXbm6VJhSkUectxWXYx",
-    "expires_in": 15551999,
-    "token_type": "Bearer"
-}
-*/
